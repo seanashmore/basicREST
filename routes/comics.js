@@ -34,4 +34,3 @@ router.delete('/:comicId', async (req, res) => {
 });
 
 module.exports = router;
-
