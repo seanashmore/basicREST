@@ -6,7 +6,7 @@ const Comic = require('../models/Comic');
 router.get('/', async(req, res) => {
     try {
         const comics = await Comic.find();
-        res.status(200).send(posts);
+        res.status(200).send(comics);
     } catch(err) { res.status(500).json({ message: err}) }
 });
 
