@@ -15,7 +15,8 @@ const ComicSchema = mongoose.Schema({
         required: true
     },
     publisher: {
-        type: String, enum: ['Marvel Comics', 'DC Comics', 'Image Comics', 'Dark Horse Comics', 'IDW Publishing', 'Valiant Comics', 'Vertigo']
+        type: String, enum: ['Marvel Comics', 'DC Comics', 'Image Comics', 'Dark Horse Comics', 'IDW Publishing', 'Valiant Comics', 'Vertigo'],
+        required: true
     }
 })
 
